@@ -20,4 +20,5 @@ sudo apt install python3-pip
 python3 -m pip install moderngl --break-system-packages
 python3 -m pip install pygame --break-system-packages
 python 01_hello_world.py
+pip install moderngl numpy objloader pillow pygame-ce pyglm glfw --break-system-packages
 ```
