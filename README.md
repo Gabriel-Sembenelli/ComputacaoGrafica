@@ -6,7 +6,7 @@ Disciplina de Computação Gráfica na UFABC
 
 e-mail: `mario.gazziro@ufabc.edu.br`
 
-## Aula 1
+## atividade 1
 
 - 90% A
 - 80% B
