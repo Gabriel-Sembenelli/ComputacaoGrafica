@@ -12,6 +12,9 @@ Disciplina de Computação Gráfica na UFABC
 [Site do professor](http://professor.ufabc.edu.br/~mario.gazziro/cg/)
 
 ```
-sudo apt install python3
-sudo apt 
+sudo apt install python-is-python3
+sudo apt install python3-pip
+python3 -m pip install moderngl --break-system-packages
+python3 -m pip install pygame --break-system-packages
+python 01_hello_world.py
 ```
