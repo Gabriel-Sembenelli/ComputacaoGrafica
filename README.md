@@ -1,15 +1,18 @@
 # ComputacaoGrafica
+
 Disciplina de Computação Gráfica na UFABC
+
+[Site do professor](http://professor.ufabc.edu.br/~mario.gazziro/cg/)
+
+e-mail: `mario.gazziro@ufabc.edu.br`
 
 ## Aula 1
 
-90% A
-80% B
-70% C
-60% D
-<60% F
-
-[Site do professor](http://professor.ufabc.edu.br/~mario.gazziro/cg/)
+- 90% A
+- 80% B
+- 70% C
+- 60% D
+- <60% F
 
 ```
 sudo apt install python-is-python3
