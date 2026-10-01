@@ -35,3 +35,24 @@ pip install moderngl numpy objloader pillow pygame-ce pyglm glfw --break-system-
 
 > O 15 tem fps, time_elapsed e posição do mouse
 
+### Desafio de fluidsGL
+
+This code is from the official NVIDIA CUDA "fluidsGL" sample. Because it relies on the CUDA Fast Fourier Transform library (CUFFT), OpenGL, and missing helper files like `fluidsGL_kernels.h` and `helper_cuda.h`, you cannot compile `defines.h` and `fluidsGL.cpp` in isolation.
+
+Here is the easiest way to get it running:
+
+1. **Install Prerequisites**: Ensure you have an NVIDIA GPU, the NVIDIA CUDA Toolkit, and FreeGLUT installed (e.g., `sudo apt install freeglut3-dev` on Linux).
+2. **Download the Full Sample**: Clone the official NVIDIA CUDA Samples repository from GitHub to get the required helper files (`helper_gl.h`, `helper_cuda.h`, `fluidsGL_kernels.h`, and `fluidsGL_kernels.cu`).
+
+
+3. **Compile**: Open a terminal, navigate to the `fluidsGL` directory within the downloaded samples, and run `make`.
+4. **Execute**: Run the resulting binary by typing `./fluidsGL`.
+
+If you manually gather all the missing headers and source files into a single directory, you can compile the simulation using the `nvcc` compiler:
+
+```bash
+nvcc fluidsGL.cpp fluidsGL_kernels.cu -o fluidsGL -lcufft -lGL -lGLU -lglut
+
+```
+
+Once running, you can click and drag with your mouse to interact with the fluid, press `r` to reset the simulation, or press `ESC` to exit.
