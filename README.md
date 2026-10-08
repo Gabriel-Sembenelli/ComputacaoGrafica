@@ -56,3 +56,8 @@ nvcc fluidsGL.cpp fluidsGL_kernels.cu -o fluidsGL -lcufft -lGL -lGLU -lglut
 ```
 
 Once running, you can click and drag with your mouse to interact with the fluid, press `r` to reset the simulation, or press `ESC` to exit.
+
+## Atividade 2
+
+[link atividade 2](http://professor.ufabc.edu.br/~mario.gazziro/cg/novo/slides/slides04.pdf)
+
