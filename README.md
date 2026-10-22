@@ -64,3 +64,7 @@ Once running, you can click and drag with your mouse to interact with the fluid,
 ## Atividade 3
 
 [Essa lista](http://professor.ufabc.edu.br/~mario.gazziro/cg/novo/atividades/atividade1.pdf) foi entregue respondida presencialmente de próprio punho.
+
+## Atividade 5
+
+[slide](http://professor.ufabc.edu.br/~mario.gazziro/cg/novo/slides/slides_cap7.pdf)
