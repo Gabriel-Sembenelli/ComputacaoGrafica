@@ -68,3 +68,16 @@ Once running, you can click and drag with your mouse to interact with the fluid,
 ## Atividade 6
 
 [slide](http://professor.ufabc.edu.br/~mario.gazziro/cg/novo/slides/slides_cap7.pdf)
+
+## Atividade 11
+
+```
+sudo snap install blender
+sudo apt install gimp
+```
+- https://short.do/PJwyEn
+- Tutorial entre 30 e 45 min
+- mapeamento uv e costura digital
+- https://short.do/lDumaN
+- print do caixote com nome e RA
+- https://short.do/av6C-C (simulador riscplay)
